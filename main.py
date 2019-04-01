@@ -48,10 +48,10 @@ def main(_):
         srgan = SRGAN(FLAGS, batch_size=8, input_height=256, input_width=256, input_channels=3, sess=sess)
         srgan.build_model()
         
-        print ("开始")
+        print ("开始训练")
         srgan.train()
         #srgan.test()
-        print ("结束")
+        print ("结束训练")
         
 if __name__=='__main__':
     # 指定Session在第1块GPU上运行：
