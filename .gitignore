@@ -1,0 +1,8 @@
+__pycache__/
+checkpoint/
+train/
+logs/
+sample/
+test/
+data*/
+
